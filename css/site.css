@@ -25,6 +25,13 @@ input, textarea {
     font: 1rem sans-serif;
 
     /* same size to all text fields */
-    
+    /* REFERENCE:  https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing */
+    /* border-box tells the browser to account for any border and padding in the 
+          value you specify for width and height. */
+    width: 300px;
+    box-sizing: border-box;
+
+    /* to harmonoze the look and feel of the text field border */
+    border: 1px solid rebeccapurple;
 
 }
